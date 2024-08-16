@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top:2px;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: #391c3c;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+   
+}
+nav ul  a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul a :hover{
+    color: rgb(156, 240, 240)
+}
+.left {
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    height: 50vh;
+}
+.firstsection > div{
+    width: 31%;
+}
+.leftsection
+{
+    /* background-color: rebeccapurple; */
+    margin-top: 44px;
+    font-size: 2.4rem;
+}
+.rightsection{
+    margin-top: -39px;
+}
+.rightsection img{
+    margin-top: 89px;
+    height: 75%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding-top: 38px;
+}
+.secondsection{
+   height: 80vh;
+   display: flex;
+   justify-content: space-around;
+   margin: 54px 0;
+}
+.secondsection h1{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 43px;
+}
+.secondsection > div{
+    width: 37%;
+}
+.ableftsection
+{
+    /* background-color: rebeccapurple; */
+    margin-top: 35px;
+    
+    border: 1px solid violet;
+    border-radius: 60px;
+    height:30rem;
+}
+.abrightsection{
+    margin-top: 35px;
+    border: 1px solid violet;
+    height:30rem;
+}
+#aboutleft{ 
+    margin: 22px;
+}
+.thirdsection{
+    height: 60vh;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.firstrow{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height:fit-content;
+   margin-bottom: 30px;
+}
+.firstrow .box
+{
+    border: 1px solid violet;
+    height: 136px;
+    width: 147px;
+    /* padding-left: 10px; */
+    border-radius: 20px;
+}
+.firstrow .box :hover
+{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.fourthsection{
+    height: 60vh;
+}
+.fourthsection .firstrow
+{
+    margin-top: 40px;
+}
+.fourthsection .firstrow .box{
+    height:300px;
+    width: 400px;
+    border: none;
+}
+.fourthsection .firstrow .box img{
+    /* border: 1px solid red; */
+border-radius: 20px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.fivthsection{
+    height: 80vh;
+}
+.connect{
+    /* width: 30%; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid red; 
+   
+}
